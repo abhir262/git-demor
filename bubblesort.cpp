@@ -12,6 +12,7 @@ void bubblesort(int a[],int n){
     }
 }
 int main(){
+    int x=0;
     int a[]={3,1,6,9,0,4};
     bubblesort(a,6);
     //cin>>a;
