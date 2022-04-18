@@ -1,13 +1,16 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int *a=new int;
-    *a=55;
-    cout<<"random:"<<*a<<" "<<a<<endl;
-    delete a;
-    int x=56;
-    char v=x;
-    cout<<v;
+    // int *a=new int;
+    // *a=55;
+    // cout<<"random:"<<*a<<" "<<a<<endl;
+    // delete a;
+    // int x=56;
+    // char v=x;
+    // cout<<v;
+    char a[100];
+    cin>>a;
+    int u=0;
     // cout<< sizeof(a)<<"size: of &"<<sizeof(*a)<<endl;
     // char *x= new char;
     // *x='r';
@@ -26,26 +29,26 @@ int main(){
 //     b=h;
 // cout<<"B:"<<*h;
  //cout<<"size of w:"<<sizeof(w);
- int m;
- int n;
- cin>>m;
- int**p=new int*[m];
-    for(int i=0;i<m;i++)  {
-      p[i]=new int[i+1];
-   for(int j=0;j<=i;j++){
-        cin>>p[i][j];
-                        }
-                             }
-    for(int i=0;i<m;i++){
-        for(int j=0;j<=i;j++){
-            cout<<p[i][j]<<" ";
-                             }
-        cout<<endl;
-                        }                   
-for(int i=0;i<m;i++){
-    delete []p[i];
-                    }
-            delete []p; 
-            cout<<p<<endl<<p[0][0] ;      
+//  int m;
+//  int n;
+//  cin>>m;
+//  int**p=new int*[m];
+//     for(int i=0;i<m;i++)  {
+//       p[i]=new int[i+1];
+//    for(int j=0;j<=i;j++){
+//         cin>>p[i][j];
+//                         }
+//                              }
+//     for(int i=0;i<m;i++){
+//         for(int j=0;j<=i;j++){
+//             cout<<p[i][j]<<" ";
+//                              }
+//         cout<<endl;
+//                         }                   
+// for(int i=0;i<m;i++){
+//     delete []p[i];
+//                     }
+//             delete []p; 
+//             cout<<p<<endl<<p[0][0] ;      
 
 }
