@@ -11,6 +11,7 @@ int main(){
     char a[100];
     cin>>a;
     int u=0;
+    cout<<u;
     // cout<< sizeof(a)<<"size: of &"<<sizeof(*a)<<endl;
     // char *x= new char;
     // *x='r';
