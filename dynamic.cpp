@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
 int main(){
-    // int *a=new int;
-    // *a=55;
-    // cout<<"random:"<<*a<<" "<<a<<endl;
-    // delete a;
+    int *a=new int;
+    *a=55;
+    cout<<"random:"<<*a<<" "<<a<<endl;
+    delete a;
     // cout<< sizeof(a)<<"size: of &"<<sizeof(*a)<<endl;
     // char *x= new char;
     // *x='r';
