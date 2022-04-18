@@ -5,6 +5,9 @@ int main(){
     *a=55;
     cout<<"random:"<<*a<<" "<<a<<endl;
     delete a;
+    int x=56;
+    char v=x;
+    cout<<v;
     // cout<< sizeof(a)<<"size: of &"<<sizeof(*a)<<endl;
     // char *x= new char;
     // *x='r';
